@@ -10,8 +10,12 @@ Pod::Spec.new do |s|
   s.version      = '1.0.0'
   s.license      = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/supsysjp/aimstar-in-app-log-ios'
-  s.authors      = 'Supreme System Co., Ltd.'
-  s.summary      = 'AimstarInAppLogSDK'
-  s.source = { :http => "https://github.com/supsysjp/aimstar-in-app-log-ios/releases/download/#{s.version.to_s}/AimstarInAppLogSDK.zip" }
-  s.ios.deployment_target = '16.0'
+  s.author       = 'Supreme System Co., Ltd.'
+  s.summary      = 'iOS SDK for logging in-app events to Aimstar'
+  s.source = {
+    :http => "https://github.com/supsysjp/aimstar-in-app-log-ios/releases/download/#{s.version.to_s}/AimstarInAppLogSDK.zip"
+  }
+  s.platform = :ios, '16.0'
+  s.swift_versions = ['6.1']
+  s.vendored_frameworks = 'AimstarInAppLogSDK.xcframework'
 end
