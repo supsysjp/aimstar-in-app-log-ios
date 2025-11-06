@@ -12,8 +12,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let config = AimstarLogSDKConfig(apiKey: "Your API Key", tenantId: "Your Tenant ID")
         // 必要に応じてログの送信に関する設定を行います
-        // config.batchInterval = 20
-        // config.maxBatchCount = 50
+        config.batchInterval = 20
+        config.maxBatchCount = 50
 
         // SDKの初期化
         AimstarInAppLog.shared.setup(config: config)
