@@ -73,7 +73,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-### 3. Batch Interval と MaxLog Countの設定
+### 3. Batch Interval と Max Batch Countの設定
 
 setup時に必要に応じてログの送信に関する設定をしてください。
 
