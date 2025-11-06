@@ -14,17 +14,16 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         return button
     }()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "HomeScreen"
         setupViews()
-        
-        // Additional setup after loading the view.
-        // login
+
+        // ログイン状態を変更します
         AimstarInAppLog.shared.updateLoginState(customerId: "user_001")
     }
-    
+
     private func setupViews() {
         button.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(button)
@@ -33,11 +32,9 @@ class ViewController: UIViewController {
             button.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
     }
-    
+
     @objc private func buttonTapped() {
-        // Send page view event logic here
-        print("Page view event sent")
-        
+        // 擬似的にページビューイベントを発生させます
         AimstarInAppLog.shared.trackPageView(
             pageUrl: "https://page/pageview",
             pageTitle: self.title,
