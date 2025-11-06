@@ -1,4 +1,4 @@
-# Aimstar In App Log SDK
+# Aimstar In App Log iOS SDK
 
 ## Requirements
 
