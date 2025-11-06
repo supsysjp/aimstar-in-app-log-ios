@@ -43,8 +43,8 @@ pod "AimstarInAppLog"
 
 #### 手動で追加する場合
 
-1. [releases](https://github.com/supsysjp/aimstar-in-app-log-ios/releases) から `AimstarInAppLogSDK.zip` をダウンロードして展開し、  `AimstarInAppLogSDK.xcframework` を準備してください。
-2. プロジェクトの設定画面で「 **General **」タブを開きます。
+1. [Releases](https://github.com/supsysjp/aimstar-in-app-log-ios/releases) から `AimstarInAppLogSDK.zip` をダウンロードして展開し、  `AimstarInAppLogSDK.xcframework` を準備してください。
+2. プロジェクトの設定画面で「**General**」タブを開きます。
 3. **Frameworks, Libraries, and Embedded Content** に `.xcframework` を追加します。
 4. 「Embed & Sign」を選択します。
 5. プロジェクトの設定画面で「Build Phases」 > 「Link Binary With Libraries」に `AimstarInAppLogSDK.xcframework` が追加されていることを確認してください。
