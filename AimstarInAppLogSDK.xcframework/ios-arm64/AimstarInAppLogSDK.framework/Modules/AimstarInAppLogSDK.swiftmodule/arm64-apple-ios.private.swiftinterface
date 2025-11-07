@@ -10,6 +10,16 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+public enum TriggerType {
+  case startup
+  case track
+  case timer
+  public static func == (a: AimstarInAppLogSDK.TriggerType, b: AimstarInAppLogSDK.TriggerType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum CustomValue : Swift.Encodable {
   case string(Swift.String)
   case bool(Swift.Bool)
@@ -18,6 +28,16 @@ public enum CustomValue : Swift.Encodable {
   case boolArray([Swift.Bool])
   case doubleArray([Swift.Double])
   public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum APIError : Swift.Error {
+  case invalidResponse
+  case serviceUnavailable(statusCode: Swift.Int)
+  case clientError(statusCode: Swift.Int)
+  case serverError(statusCode: Swift.Int)
+  case unexpectedStatus(statusCode: Swift.Int)
+}
+public enum ValidationError : Swift.Error {
+  case invalidParameter(name: Swift.String, input: Swift.Int, forced: Swift.Int, min: Swift.Int, max: Swift.Int)
 }
 public struct AimstarLogSDKConfig : Swift.Equatable {
   public var batchInterval: Swift.Double
@@ -50,26 +70,6 @@ extension AimstarInAppLogSDK.AimstarInAppLog {
   final public func trackFavoriteProduct(isUnfavorite: Swift.Bool?, productId: Swift.String?, productName: Swift.String?, skuId: Swift.String?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
   final public func trackPushLog(notificationId: Swift.String?, notificationAction: Swift.String?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
   final public func trackRequestApi(latencyMs: Swift.Int?, errorMessage: Swift.String?, queryParams: Swift.String?, requestMethod: Swift.String?, requestOrigin: Swift.String?, requestSize: Swift.Int?, requestUrl: Swift.String?, statusCode: Swift.Int?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
-}
-public enum APIError : Swift.Error {
-  case invalidResponse
-  case serviceUnavailable(statusCode: Swift.Int)
-  case clientError(statusCode: Swift.Int)
-  case serverError(statusCode: Swift.Int)
-  case unexpectedStatus(statusCode: Swift.Int)
-}
-public enum ValidationError : Swift.Error {
-  case invalidParameter(name: Swift.String, input: Swift.Int, forced: Swift.Int, min: Swift.Int, max: Swift.Int)
-}
-public enum TriggerType {
-  case startup
-  case track
-  case timer
-  public static func == (a: AimstarInAppLogSDK.TriggerType, b: AimstarInAppLogSDK.TriggerType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 extension AimstarInAppLogSDK.TriggerType : Swift.Equatable {}
 extension AimstarInAppLogSDK.TriggerType : Swift.Hashable {}
