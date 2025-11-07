@@ -10,16 +10,6 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
-public enum TriggerType {
-  case startup
-  case track
-  case timer
-  public static func == (a: AimstarInAppLogSDK.TriggerType, b: AimstarInAppLogSDK.TriggerType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public enum CustomValue : Swift.Encodable {
   case string(Swift.String)
   case bool(Swift.Bool)
@@ -36,12 +26,19 @@ public enum APIError : Swift.Error {
   case serverError(statusCode: Swift.Int)
   case unexpectedStatus(statusCode: Swift.Int)
 }
-public enum ValidationError : Swift.Error {
-  case invalidParameter(name: Swift.String, input: Swift.Int, forced: Swift.Int, min: Swift.Int, max: Swift.Int)
+public enum TriggerType {
+  case startup
+  case track
+  case timer
+  public static func == (a: AimstarInAppLogSDK.TriggerType, b: AimstarInAppLogSDK.TriggerType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct AimstarLogSDKConfig : Swift.Equatable {
   public var batchInterval: Swift.Double
-  public var maxBatchCount: Swift.Int
+  public var maxLogCount: Swift.Int
   public init(apiKey: Swift.String, tenantId: Swift.String)
   public static func == (a: AimstarInAppLogSDK.AimstarLogSDKConfig, b: AimstarInAppLogSDK.AimstarLogSDKConfig) -> Swift.Bool
 }
@@ -70,6 +67,9 @@ extension AimstarInAppLogSDK.AimstarInAppLog {
   final public func trackFavoriteProduct(isUnfavorite: Swift.Bool? = nil, productId: Swift.String? = nil, productName: Swift.String? = nil, skuId: Swift.String? = nil, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
   final public func trackPushLog(notificationId: Swift.String? = nil, notificationAction: Swift.String? = nil, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
   final public func trackRequestApi(latencyMs: Swift.Int? = nil, errorMessage: Swift.String? = nil, queryParams: Swift.String? = nil, requestMethod: Swift.String? = nil, requestOrigin: Swift.String? = nil, requestSize: Swift.Int? = nil, requestUrl: Swift.String? = nil, statusCode: Swift.Int? = nil, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
+}
+public enum ValidationError : Swift.Error {
+  case invalidParameter(name: Swift.String, input: Swift.Int, forced: Swift.Int, min: Swift.Int, max: Swift.Int)
 }
 extension AimstarInAppLogSDK.TriggerType : Swift.Equatable {}
 extension AimstarInAppLogSDK.TriggerType : Swift.Hashable {}
