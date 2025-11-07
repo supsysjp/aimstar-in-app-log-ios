@@ -196,11 +196,11 @@ func updateLoginState(customerId: String?)
 
 ```swift
 func updateDeepLink(
-    campaign: String? = nil,
-    content: String? = nil,
-    medium: String? = nil,
-    source: String? = nil,
-    term: String? = nil
+    campaign: String?,
+    content: String?,
+    medium: String?,
+    source: String?,
+    term: String?
 )
 ```
 
@@ -239,10 +239,10 @@ func trackProductInfo(
 
 ```swift
 func trackClickButton(
-    action: String? = nil,
-    buttonId: String? = nil,
-    buttonName: String? = nil,
-    buttonText: String? = nil,
+    action: String?,
+    buttonId: String?,
+    buttonName: String?,
+    buttonText: String?,
     customParams: [String: CustomValue]? = nil
 )
 ```
@@ -253,14 +253,14 @@ func trackClickButton(
 
 ```swift
 func trackSearch(
-    pageNumber: Int? = nil,
-    requestUrl: String? = nil,
-    resultsCount: Int? = nil,
-    searchQuery: String? = nil,
-    searchType: String? = nil,
-    sortKey: String? = nil,
-    sortOrder: String? = nil,
-    statusCode: Int? = nil,
+    pageNumber: Int?,
+    requestUrl: String?,
+    resultsCount: Int?,
+    searchQuery: String?,
+    searchType: String?,
+    sortKey: String?,
+    sortOrder: String?,
+    statusCode: Int?,
     customParams: [String: CustomValue]? = nil
 )
 ```
@@ -271,11 +271,11 @@ func trackSearch(
 
 ```swift
 func trackCartProduct(
-    amount: Int? = nil,
-    cartId: String? = nil,
-    productId: String? = nil,
-    productName: String? = nil,
-    skuId: String? = nil,
+    amount: Int?,
+    cartId: String?,
+    productId: String?,
+    productName: String?,
+    skuId: String?,
     customParams: [String: CustomValue]? = nil
 )
 ```
@@ -286,10 +286,10 @@ func trackCartProduct(
 
 ```swift
 func trackFavoriteProduct(
-    isUnfavorite: Bool? = nil,
-    productId: String? = nil,
-    productName: String? = nil,
-    skuId: String? = nil,
+    isUnfavorite: Bool?,
+    productId: String?,
+    productName: String?,
+    skuId: String?,
     customParams: [String: CustomValue]? = nil
 )
 ```
@@ -300,13 +300,13 @@ func trackFavoriteProduct(
 
 ```swift
 func trackPurchase(
-    cartId: String? = nil,
-    itemCount: Int? = nil,
-    orderId: String? = nil,
-    paymentMethod: String? = nil,
-    shippingAmount: Double? = nil,
-    taxAmount: Double? = nil,
-    totalAmount: Double? = nil,
+    cartId: String?,
+    itemCount: Int?,
+    orderId: String?,
+    paymentMethod: String?,
+    shippingAmount: Double?,
+    taxAmount: Double?,
+    totalAmount: Double?,
     customParams: [String: CustomValue]? = nil
 )
 ```
@@ -317,8 +317,8 @@ func trackPurchase(
 
 ```swift
 func trackPushLog(
-    notificationId: String? = nil,
-    notificationAction: String? = nil,
+    notificationId: String?,
+    notificationAction: String?,
     customParams: [String: CustomValue]? = nil
 )
 ```
@@ -329,14 +329,14 @@ func trackPushLog(
 
 ```swift
 func trackRequestApi(
-    latencyMs: Int? = nil,
-    errorMessage: String? = nil,
-    queryParams: String? = nil,
-    requestMethod: String? = nil,
-    requestOrigin: String? = nil,
-    requestSize: Int? = nil,
-    requestUrl: String? = nil,
-    statusCode: Int? = nil,
+    latencyMs: Int?,
+    errorMessage: String?,
+    queryParams: String?,
+    requestMethod: String?,
+    requestOrigin: String?,
+    requestSize: Int?,
+    requestUrl: String?,
+    statusCode: Int?,
     customParams: [String: CustomValue]? = nil
 )
 ```
