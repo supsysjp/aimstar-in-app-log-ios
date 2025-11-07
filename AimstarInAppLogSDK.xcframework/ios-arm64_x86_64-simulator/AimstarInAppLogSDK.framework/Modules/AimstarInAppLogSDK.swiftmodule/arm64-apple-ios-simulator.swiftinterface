@@ -10,18 +10,12 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
-public enum ValidationError : Swift.Error {
-  case invalidParameter(name: Swift.String, input: Swift.Int, forced: Swift.Int, min: Swift.Int, max: Swift.Int)
-}
-public enum TriggerType {
-  case startup
-  case track
-  case timer
-  public static func == (a: AimstarInAppLogSDK.TriggerType, b: AimstarInAppLogSDK.TriggerType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+public enum APIError : Swift.Error {
+  case invalidResponse
+  case serviceUnavailable(statusCode: Swift.Int)
+  case clientError(statusCode: Swift.Int)
+  case serverError(statusCode: Swift.Int)
+  case unexpectedStatus(statusCode: Swift.Int)
 }
 public enum CustomValue : Swift.Encodable {
   case string(Swift.String)
@@ -31,6 +25,9 @@ public enum CustomValue : Swift.Encodable {
   case boolArray([Swift.Bool])
   case doubleArray([Swift.Double])
   public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum ValidationError : Swift.Error {
+  case invalidParameter(name: Swift.String, input: Swift.Int, forced: Swift.Int, min: Swift.Int, max: Swift.Int)
 }
 public struct AimstarLogSDKConfig : Swift.Equatable {
   public var batchInterval: Swift.Double
@@ -51,25 +48,28 @@ public struct AimstarLogSDKConfig : Swift.Equatable {
 }
 extension AimstarInAppLogSDK.AimstarInAppLog {
   final public func updateLoginState(customerId: Swift.String?)
-  final public func updateDeepLink(campaign: Swift.String? = nil, content: Swift.String? = nil, medium: Swift.String? = nil, source: Swift.String? = nil, term: Swift.String? = nil)
+  final public func updateDeepLink(campaign: Swift.String?, content: Swift.String?, medium: Swift.String?, source: Swift.String?, term: Swift.String?)
 }
 extension AimstarInAppLogSDK.AimstarInAppLog {
   final public func trackPageView(pageUrl: Swift.String?, pageTitle: Swift.String?, referrerUrl: Swift.String?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
   final public func trackProductInfo(brand: Swift.String?, productCategory: Swift.String?, productId: Swift.String?, productName: Swift.String?, productPrice: Swift.Double?, skuId: Swift.String?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
-  final public func trackPurchase(cartId: Swift.String? = nil, itemCount: Swift.Int? = nil, orderId: Swift.String? = nil, paymentMethod: Swift.String? = nil, shippingAmount: Swift.Double? = nil, taxAmount: Swift.Double? = nil, totalAmount: Swift.Double? = nil, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
-  final public func trackClickButton(action: Swift.String? = nil, buttonId: Swift.String? = nil, buttonName: Swift.String? = nil, buttonText: Swift.String? = nil, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
-  final public func trackSearch(pageNumber: Swift.Int? = nil, requestUrl: Swift.String? = nil, resultsCount: Swift.Int? = nil, searchQuery: Swift.String? = nil, searchType: Swift.String? = nil, sortKey: Swift.String? = nil, sortOrder: Swift.String? = nil, statusCode: Swift.Int? = nil, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
-  final public func trackCartProduct(amount: Swift.Int? = nil, cartId: Swift.String? = nil, productId: Swift.String? = nil, productName: Swift.String? = nil, skuId: Swift.String? = nil, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
-  final public func trackFavoriteProduct(isUnfavorite: Swift.Bool? = nil, productId: Swift.String? = nil, productName: Swift.String? = nil, skuId: Swift.String? = nil, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
-  final public func trackPushLog(notificationId: Swift.String? = nil, notificationAction: Swift.String? = nil, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
-  final public func trackRequestApi(latencyMs: Swift.Int? = nil, errorMessage: Swift.String? = nil, queryParams: Swift.String? = nil, requestMethod: Swift.String? = nil, requestOrigin: Swift.String? = nil, requestSize: Swift.Int? = nil, requestUrl: Swift.String? = nil, statusCode: Swift.Int? = nil, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
+  final public func trackPurchase(cartId: Swift.String?, itemCount: Swift.Int?, orderId: Swift.String?, paymentMethod: Swift.String?, shippingAmount: Swift.Double?, taxAmount: Swift.Double?, totalAmount: Swift.Double?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
+  final public func trackClickButton(action: Swift.String?, buttonId: Swift.String?, buttonName: Swift.String?, buttonText: Swift.String?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
+  final public func trackSearch(pageNumber: Swift.Int?, requestUrl: Swift.String?, resultsCount: Swift.Int?, searchQuery: Swift.String?, searchType: Swift.String?, sortKey: Swift.String?, sortOrder: Swift.String?, statusCode: Swift.Int?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
+  final public func trackCartProduct(amount: Swift.Int?, cartId: Swift.String?, productId: Swift.String?, productName: Swift.String?, skuId: Swift.String?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
+  final public func trackFavoriteProduct(isUnfavorite: Swift.Bool?, productId: Swift.String?, productName: Swift.String?, skuId: Swift.String?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
+  final public func trackPushLog(notificationId: Swift.String?, notificationAction: Swift.String?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
+  final public func trackRequestApi(latencyMs: Swift.Int?, errorMessage: Swift.String?, queryParams: Swift.String?, requestMethod: Swift.String?, requestOrigin: Swift.String?, requestSize: Swift.Int?, requestUrl: Swift.String?, statusCode: Swift.Int?, customParams: [Swift.String : AimstarInAppLogSDK.CustomValue]? = nil)
 }
-public enum APIError : Swift.Error {
-  case invalidResponse
-  case serviceUnavailable(statusCode: Swift.Int)
-  case clientError(statusCode: Swift.Int)
-  case serverError(statusCode: Swift.Int)
-  case unexpectedStatus(statusCode: Swift.Int)
+public enum TriggerType {
+  case startup
+  case track
+  case timer
+  public static func == (a: AimstarInAppLogSDK.TriggerType, b: AimstarInAppLogSDK.TriggerType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 extension AimstarInAppLogSDK.TriggerType : Swift.Equatable {}
 extension AimstarInAppLogSDK.TriggerType : Swift.Hashable {}

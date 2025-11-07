@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70170DDA2EBD7A7B0019AF78 /* AimstarInAppLogSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70170DD92EBD7A7B0019AF78 /* AimstarInAppLogSDK.xcframework */; };
-		70170DDB2EBD7A7B0019AF78 /* AimstarInAppLogSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70170DD92EBD7A7B0019AF78 /* AimstarInAppLogSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		70170EDE2EBD8E230019AF78 /* AimstarInAppLogSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70170EDD2EBD8E230019AF78 /* AimstarInAppLogSDK.xcframework */; };
+		70170EDF2EBD8E230019AF78 /* AimstarInAppLogSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70170EDD2EBD8E230019AF78 /* AimstarInAppLogSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +18,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				70170DDB2EBD7A7B0019AF78 /* AimstarInAppLogSDK.xcframework in Embed Frameworks */,
+				70170EDF2EBD8E230019AF78 /* AimstarInAppLogSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		70170DD92EBD7A7B0019AF78 /* AimstarInAppLogSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AimstarInAppLogSDK.xcframework; path = ../AimstarInAppLogSDK.xcframework; sourceTree = "<group>"; };
+		70170EDD2EBD8E230019AF78 /* AimstarInAppLogSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AimstarInAppLogSDK.xcframework; path = ../AimstarInAppLogSDK.xcframework; sourceTree = "<group>"; };
 		7433BD832EBB4D4000C5E25D /* AimstarInAppLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AimstarInAppLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,17 +56,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70170DDA2EBD7A7B0019AF78 /* AimstarInAppLogSDK.xcframework in Frameworks */,
+				70170EDE2EBD8E230019AF78 /* AimstarInAppLogSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		70170DD82EBD7A7A0019AF78 /* Frameworks */ = {
+		70170EDC2EBD8E230019AF78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				70170DD92EBD7A7B0019AF78 /* AimstarInAppLogSDK.xcframework */,
+				70170EDD2EBD8E230019AF78 /* AimstarInAppLogSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				7433BD852EBB4D4000C5E25D /* AimstarInAppLog */,
-				70170DD82EBD7A7A0019AF78 /* Frameworks */,
+				70170EDC2EBD8E230019AF78 /* Frameworks */,
 				7433BD842EBB4D4000C5E25D /* Products */,
 			);
 			sourceTree = "<group>";
