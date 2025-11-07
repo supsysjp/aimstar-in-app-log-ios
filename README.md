@@ -24,7 +24,7 @@
 | API Key | Aimstar In App Log を利用するために必要な API キーで、Aimstar 側で事前にアプリ開発者に発行されます。 |
 | Tenant ID | Aimstar In App Log を利用するために必要なテナント ID で、Aimstar 側で事前にアプリ開発者に発行されます。 |
 | Batch Interval | Aimstar In App Log では、アプリ開発者がログを送信する「間隔」（秒単位）を指定できます。 |
-| Max Batch Count |  Aimstar In App Log では、アプリ開発者が一度に送信するログの「件数上限」を指定できます。 |
+| Max Log Count |  Aimstar In App Log では、アプリ開発者が一度に送信するログの「件数上限」を指定できます。 |
 | Customer ID | アプリ開発者がユーザーを識別する ID で、アプリ開発者が独自に発行、生成、または利用します。 |
 | Session ID |  Aimstar In App Log 側で、アプリ起動ごとに新規発行するセッション識別子です。 |
 | Installation ID | Aimstar In App Log 側で、アプリインストールごとに一意となる識別子です。 |
@@ -62,10 +62,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let config = AimstarLogSDKConfig(apiKey: "Your API Key", tenantId: "Your Tenant ID")
 
-        // 必要に応じてログの送信に関する設定を行います
-        //config.batchInterval = 20
-        //config.maxBatchCount = 50
-
         // SDKの初期化
         AimstarInAppLog.shared.setup(config: config)
         return true
@@ -73,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-### 3. Batch Interval と Max Batch Countの設定
+### 3. Batch Interval と Max Log Countの設定
 
 setup時に必要に応じてログの送信に関する設定をしてください。
 
@@ -84,7 +80,7 @@ let config = AimstarLogSDKConfig(apiKey: apiKey, tenantId: tenantId)
 config.batchInterval = 20
 
 // 一度に送信するログの「件数上限」を指定できます。
-config.maxBatchCount = 50
+config.maxLogCount = 50
 ```
 
 ### 4.Customer IDの設定
@@ -124,7 +120,7 @@ AimstarInAppLog.shared.trackPageView(
 struct AimstarLogSDKConfig
 ```
 
-SDK 初期化時の設定を管理する構造体です。必須項目としてAPI Key・Tenant ID、オプション項目としてBatch Interval・Max Batch Countを指定します。
+SDK 初期化時の設定を管理する構造体です。必須項目としてAPI Key・Tenant ID、オプション項目としてBatch Interval・Max Log Countを指定します。
 
 ### Properties
 
@@ -136,10 +132,10 @@ var batchInterval: Int?
 
 Aimstar へログイベントをバッチ送信する「間隔」（秒）を設定します。
 
-#### maxBatchCount: Int?
+#### maxLogCount: Int?
 
 ```swift
-var maxBatchCount: Int?
+var maxLogCount: Int?
 ```
 
 Aimstar へ一度に送信するログイベントの「件数上限」を指定します。
