@@ -8,7 +8,7 @@
 Pod::Spec.new do |s|
   s.name         = 'AimstarInAppLog'
   s.module_name  = 'AimstarInAppLogSDK'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.license      = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/supsysjp/aimstar-in-app-log-ios'
   s.author       = 'Supreme System Co., Ltd.'
