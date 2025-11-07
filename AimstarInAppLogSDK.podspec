@@ -6,7 +6,8 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 Pod::Spec.new do |s|
-  s.name         = 'AimstarInAppLogSDK'
+  s.name         = 'AimstarInAppLog'
+  s.module_name  = 'AimstarInAppLogSDK'
   s.version      = '1.0.0'
   s.license      = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/supsysjp/aimstar-in-app-log-ios'
