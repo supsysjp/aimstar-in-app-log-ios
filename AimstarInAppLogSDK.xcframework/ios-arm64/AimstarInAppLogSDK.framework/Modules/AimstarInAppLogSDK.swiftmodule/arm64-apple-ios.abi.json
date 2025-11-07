@@ -1,0 +1,3224 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AimstarInAppLogSDK",
+    "printedName": "AimstarInAppLogSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomValue",
+        "printedName": "CustomValue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> (Swift.String) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO6stringyACSScACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO6stringyACSScACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> (Swift.Bool) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO4boolyACSbcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO4boolyACSbcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "double",
+            "printedName": "double",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> (Swift.Double) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO6doubleyACSdcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO6doubleyACSdcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "stringArray",
+            "printedName": "stringArray",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> ([Swift.String]) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO11stringArrayyACSaySSGcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO11stringArrayyACSaySSGcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "boolArray",
+            "printedName": "boolArray",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> ([Swift.Bool]) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.Bool]) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Bool]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO9boolArrayyACSaySbGcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO9boolArrayyACSaySbGcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "doubleArray",
+            "printedName": "doubleArray",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> ([Swift.Double]) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.Double]) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Double]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO11doubleArrayyACSaySdGcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO11doubleArrayyACSaySdGcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO6encode2toys7Encoder_p_tKF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18AimstarInAppLogSDK11CustomValueO",
+        "mangledName": "$s18AimstarInAppLogSDK11CustomValueO",
+        "moduleName": "AimstarInAppLogSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AimstarLogSDKConfig",
+        "printedName": "AimstarLogSDKConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "batchInterval",
+            "printedName": "batchInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV13batchIntervalSdvp",
+            "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV13batchIntervalSdvp",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV13batchIntervalSdvg",
+                "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV13batchIntervalSdvg",
+                "moduleName": "AimstarInAppLogSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV13batchIntervalSdvs",
+                "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV13batchIntervalSdvs",
+                "moduleName": "AimstarInAppLogSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV13batchIntervalSdvM",
+                "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV13batchIntervalSdvM",
+                "moduleName": "AimstarInAppLogSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxLogCount",
+            "printedName": "maxLogCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV03maxD5CountSivp",
+            "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV03maxD5CountSivp",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV03maxD5CountSivg",
+                "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV03maxD5CountSivg",
+                "moduleName": "AimstarInAppLogSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV03maxD5CountSivs",
+                "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV03maxD5CountSivs",
+                "moduleName": "AimstarInAppLogSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV03maxD5CountSivM",
+                "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV03maxD5CountSivM",
+                "moduleName": "AimstarInAppLogSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:tenantId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AimstarLogSDKConfig",
+                "printedName": "AimstarInAppLogSDK.AimstarLogSDKConfig",
+                "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV6apiKey8tenantIdACSS_SStcfc",
+            "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV6apiKey8tenantIdACSS_SStcfc",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AimstarLogSDKConfig",
+                "printedName": "AimstarInAppLogSDK.AimstarLogSDKConfig",
+                "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AimstarLogSDKConfig",
+                "printedName": "AimstarInAppLogSDK.AimstarLogSDKConfig",
+                "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV2eeoiySbAC_ACtFZ",
+            "moduleName": "AimstarInAppLogSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV",
+        "mangledName": "$s18AimstarInAppLogSDK0aD9SDKConfigV",
+        "moduleName": "AimstarInAppLogSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AimstarInAppLog",
+        "printedName": "AimstarInAppLog",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AimstarInAppLog",
+                "printedName": "AimstarInAppLogSDK.AimstarInAppLog",
+                "usr": "s:18AimstarInAppLogSDK0abcD0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C6sharedACvpZ",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C6sharedACvpZ",
+            "moduleName": "AimstarInAppLogSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AimstarInAppLog",
+                    "printedName": "AimstarInAppLogSDK.AimstarInAppLog",
+                    "usr": "s:18AimstarInAppLogSDK0abcD0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AimstarInAppLogSDK0abcD0C6sharedACvgZ",
+                "mangledName": "$s18AimstarInAppLogSDK0abcD0C6sharedACvgZ",
+                "moduleName": "AimstarInAppLogSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionId",
+            "printedName": "sessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C9sessionIdSSSgvp",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C9sessionIdSSSgvp",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AimstarInAppLogSDK0abcD0C9sessionIdSSSgvg",
+                "mangledName": "$s18AimstarInAppLogSDK0abcD0C9sessionIdSSSgvg",
+                "moduleName": "AimstarInAppLogSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "installationId",
+            "printedName": "installationId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C14installationIdSSSgvp",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C14installationIdSSSgvp",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AimstarInAppLogSDK0abcD0C14installationIdSSSgvg",
+                "mangledName": "$s18AimstarInAppLogSDK0abcD0C14installationIdSSSgvg",
+                "moduleName": "AimstarInAppLogSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AimstarLogSDKConfig",
+                "printedName": "AimstarInAppLogSDK.AimstarLogSDKConfig",
+                "usr": "s:18AimstarInAppLogSDK0aD9SDKConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C5setup6configyAA0aD9SDKConfigV_tF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C5setup6configyAA0aD9SDKConfigV_tF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateLoginState",
+            "printedName": "updateLoginState(customerId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C16updateLoginState10customerIdySSSg_tF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C16updateLoginState10customerIdySSSg_tF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateDeepLink",
+            "printedName": "updateDeepLink(campaign:content:medium:source:term:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C14updateDeepLink8campaign7content6medium6source4termySSSg_A4JtF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C14updateDeepLink8campaign7content6medium6source4termySSSg_A4JtF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackPageView",
+            "printedName": "trackPageView(pageUrl:pageTitle:referrerUrl:customParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C13trackPageView7pageUrl0I5Title08referrerJ012customParamsySSSg_A2ISDySSAA11CustomValueOGSgtF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C13trackPageView7pageUrl0I5Title08referrerJ012customParamsySSSg_A2ISDySSAA11CustomValueOGSgtF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackProductInfo",
+            "printedName": "trackProductInfo(brand:productCategory:productId:productName:productPrice:skuId:customParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C16trackProductInfo5brand15productCategory0J2Id0J4Name0J5Price03skuL012customParamsySSSg_A3LSdSgALSDySSAA11CustomValueOGSgtF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C16trackProductInfo5brand15productCategory0J2Id0J4Name0J5Price03skuL012customParamsySSSg_A3LSdSgALSDySSAA11CustomValueOGSgtF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackPurchase",
+            "printedName": "trackPurchase(cartId:itemCount:orderId:paymentMethod:shippingAmount:taxAmount:totalAmount:customParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C13trackPurchase6cartId9itemCount05orderI013paymentMethod14shippingAmount03taxP005totalP012customParamsySSSg_SiSgA2MSdSgA2OSDySSAA11CustomValueOGSgtF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C13trackPurchase6cartId9itemCount05orderI013paymentMethod14shippingAmount03taxP005totalP012customParamsySSSg_SiSgA2MSdSgA2OSDySSAA11CustomValueOGSgtF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackClickButton",
+            "printedName": "trackClickButton(action:buttonId:buttonName:buttonText:customParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C16trackClickButton6action8buttonId0J4Name0J4Text12customParamsySSSg_A3JSDySSAA11CustomValueOGSgtF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C16trackClickButton6action8buttonId0J4Name0J4Text12customParamsySSSg_A3JSDySSAA11CustomValueOGSgtF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackSearch",
+            "printedName": "trackSearch(pageNumber:requestUrl:resultsCount:searchQuery:searchType:sortKey:sortOrder:statusCode:customParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C11trackSearch10pageNumber10requestUrl12resultsCount11searchQuery0N4Type7sortKey0Q5Order10statusCode12customParamsySiSg_SSSgAn4oNSDySSAA11CustomValueOGSgtF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C11trackSearch10pageNumber10requestUrl12resultsCount11searchQuery0N4Type7sortKey0Q5Order10statusCode12customParamsySiSg_SSSgAn4oNSDySSAA11CustomValueOGSgtF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackCartProduct",
+            "printedName": "trackCartProduct(amount:cartId:productId:productName:skuId:customParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C16trackCartProduct6amount6cartId07productK00L4Name03skuK012customParamsySiSg_SSSgA3LSDySSAA11CustomValueOGSgtF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C16trackCartProduct6amount6cartId07productK00L4Name03skuK012customParamsySiSg_SSSgA3LSDySSAA11CustomValueOGSgtF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackFavoriteProduct",
+            "printedName": "trackFavoriteProduct(isUnfavorite:productId:productName:skuId:customParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C20trackFavoriteProduct12isUnfavorite9productId0K4Name03skuL012customParamsySbSg_SSSgA2KSDySSAA11CustomValueOGSgtF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C20trackFavoriteProduct12isUnfavorite9productId0K4Name03skuL012customParamsySbSg_SSSgA2KSDySSAA11CustomValueOGSgtF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackPushLog",
+            "printedName": "trackPushLog(notificationId:notificationAction:customParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C09trackPushD014notificationId0H6Action12customParamsySSSg_AHSDySSAA11CustomValueOGSgtF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C09trackPushD014notificationId0H6Action12customParamsySSSg_AHSDySSAA11CustomValueOGSgtF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackRequestApi",
+            "printedName": "trackRequestApi(latencyMs:errorMessage:queryParams:requestMethod:requestOrigin:requestSize:requestUrl:statusCode:customParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AimstarInAppLogSDK.CustomValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK0abcD0C15trackRequestApi9latencyMs12errorMessage11queryParams13requestMethod0O6Origin0O4Size0O3Url10statusCode06customN0ySiSg_SSSgA3onoNSDySSAA11CustomValueOGSgtF",
+            "mangledName": "$s18AimstarInAppLogSDK0abcD0C15trackRequestApi9latencyMs12errorMessage11queryParams13requestMethod0O6Origin0O4Size0O3Url10statusCode06customN0ySiSg_SSSgA3onoNSDySSAA11CustomValueOGSgtF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18AimstarInAppLogSDK0abcD0C",
+        "mangledName": "$s18AimstarInAppLogSDK0abcD0C",
+        "moduleName": "AimstarInAppLogSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIError",
+        "printedName": "APIError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> AimstarInAppLogSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "AimstarInAppLogSDK.APIError",
+                    "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK8APIErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO15invalidResponseyA2CmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "serviceUnavailable",
+            "printedName": "serviceUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK8APIErrorO18serviceUnavailableyACSi_tcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO18serviceUnavailableyACSi_tcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "clientError",
+            "printedName": "clientError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK8APIErrorO11clientErroryACSi_tcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO11clientErroryACSi_tcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK8APIErrorO11serverErroryACSi_tcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO11serverErroryACSi_tcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unexpectedStatus",
+            "printedName": "unexpectedStatus",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK8APIErrorO16unexpectedStatusyACSi_tcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO16unexpectedStatusyACSi_tcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18AimstarInAppLogSDK8APIErrorO",
+        "mangledName": "$s18AimstarInAppLogSDK8APIErrorO",
+        "moduleName": "AimstarInAppLogSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ValidationError",
+        "printedName": "ValidationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidParameter",
+            "printedName": "invalidParameter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.ValidationError.Type) -> (Swift.String, Swift.Int, Swift.Int, Swift.Int, Swift.Int) -> AimstarInAppLogSDK.ValidationError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.Int, Swift.Int, Swift.Int, Swift.Int) -> AimstarInAppLogSDK.ValidationError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidationError",
+                        "printedName": "AimstarInAppLogSDK.ValidationError",
+                        "usr": "s:18AimstarInAppLogSDK15ValidationErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(name: Swift.String, input: Swift.Int, forced: Swift.Int, min: Swift.Int, max: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.ValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidationError",
+                        "printedName": "AimstarInAppLogSDK.ValidationError",
+                        "usr": "s:18AimstarInAppLogSDK15ValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK15ValidationErrorO16invalidParameteryACSS_S4itcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK15ValidationErrorO16invalidParameteryACSS_S4itcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18AimstarInAppLogSDK15ValidationErrorO",
+        "mangledName": "$s18AimstarInAppLogSDK15ValidationErrorO",
+        "moduleName": "AimstarInAppLogSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TriggerType",
+        "printedName": "TriggerType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "startup",
+            "printedName": "startup",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.TriggerType.Type) -> AimstarInAppLogSDK.TriggerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriggerType",
+                    "printedName": "AimstarInAppLogSDK.TriggerType",
+                    "usr": "s:18AimstarInAppLogSDK11TriggerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.TriggerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriggerType",
+                        "printedName": "AimstarInAppLogSDK.TriggerType",
+                        "usr": "s:18AimstarInAppLogSDK11TriggerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11TriggerTypeO7startupyA2CmF",
+            "mangledName": "$s18AimstarInAppLogSDK11TriggerTypeO7startupyA2CmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "track",
+            "printedName": "track",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.TriggerType.Type) -> AimstarInAppLogSDK.TriggerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriggerType",
+                    "printedName": "AimstarInAppLogSDK.TriggerType",
+                    "usr": "s:18AimstarInAppLogSDK11TriggerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.TriggerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriggerType",
+                        "printedName": "AimstarInAppLogSDK.TriggerType",
+                        "usr": "s:18AimstarInAppLogSDK11TriggerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11TriggerTypeO5trackyA2CmF",
+            "mangledName": "$s18AimstarInAppLogSDK11TriggerTypeO5trackyA2CmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "timer",
+            "printedName": "timer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.TriggerType.Type) -> AimstarInAppLogSDK.TriggerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriggerType",
+                    "printedName": "AimstarInAppLogSDK.TriggerType",
+                    "usr": "s:18AimstarInAppLogSDK11TriggerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.TriggerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriggerType",
+                        "printedName": "AimstarInAppLogSDK.TriggerType",
+                        "usr": "s:18AimstarInAppLogSDK11TriggerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11TriggerTypeO5timeryA2CmF",
+            "mangledName": "$s18AimstarInAppLogSDK11TriggerTypeO5timeryA2CmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggerType",
+                "printedName": "AimstarInAppLogSDK.TriggerType",
+                "usr": "s:18AimstarInAppLogSDK11TriggerTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggerType",
+                "printedName": "AimstarInAppLogSDK.TriggerType",
+                "usr": "s:18AimstarInAppLogSDK11TriggerTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK11TriggerTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18AimstarInAppLogSDK11TriggerTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AimstarInAppLogSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AimstarInAppLogSDK11TriggerTypeO9hashValueSivp",
+            "mangledName": "$s18AimstarInAppLogSDK11TriggerTypeO9hashValueSivp",
+            "moduleName": "AimstarInAppLogSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AimstarInAppLogSDK11TriggerTypeO9hashValueSivg",
+                "mangledName": "$s18AimstarInAppLogSDK11TriggerTypeO9hashValueSivg",
+                "moduleName": "AimstarInAppLogSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK11TriggerTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18AimstarInAppLogSDK11TriggerTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AimstarInAppLogSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18AimstarInAppLogSDK11TriggerTypeO",
+        "mangledName": "$s18AimstarInAppLogSDK11TriggerTypeO",
+        "moduleName": "AimstarInAppLogSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 11,
+      "value": "\"page_view\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 14,
+      "value": "\"product_view\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 654,
+      "length": 18,
+      "value": "\"product_purchase\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 14,
+      "value": "\"button_click\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1278,
+      "length": 8,
+      "value": "\"search\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1675,
+      "length": 17,
+      "value": "\"product_cart_in\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 18,
+      "value": "\"product_favorite\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2220,
+      "length": 19,
+      "value": "\"push_notification\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2421,
+      "length": 22,
+      "value": "\"request_external_api\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/AimstarInAppLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/AimstarInAppLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/AimstarInAppLog.swift",
+      "kind": "StringLiteral",
+      "offset": 861,
+      "length": 33,
+      "value": "\"com.aimstarInAppLogSDK.sdk.main\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/AimstarInAppLog.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 6,
+      "value": "\"Main\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Batch\/BatchProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 35,
+      "value": "\"com.aimstarInAppLogSDK.batch.lock\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Batch\/BatchProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 14,
+      "value": "\"BatchProcess\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/LocalStorage\/AimstarInAppLogSettingsStore.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 25,
+      "value": "\"aimstarSdkSettings.json\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/LogTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 13,
+      "value": "\"LogTracking\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/LogTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 932,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/LocalStorage\/FileStorage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1283,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/SetupState.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 7,
+      "value": "\"Setup\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/APIRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 111,
+      "length": 8,
+      "value": "\"events\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/NetworkConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 92,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/NetworkConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 11,
+      "value": "\"tenant-id\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/NetworkConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 11,
+      "value": "\"x-api-key\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/NetworkConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 74,
+      "value": "\"https:\/\/28hkdl9d32.execute-api.ap-northeast-1.amazonaws.com\/v1\/event_log\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 138,
+      "length": 31,
+      "value": "\"com.aimstarInAppLogSDK.upload\""
+    }
+  ]
+}
