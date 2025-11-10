@@ -12,870 +12,6 @@
         "moduleName": "AimstarInAppLogSDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "APIError",
-        "printedName": "APIError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "invalidResponse",
-            "printedName": "invalidResponse",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> AimstarInAppLogSDK.APIError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIError",
-                    "printedName": "AimstarInAppLogSDK.APIError",
-                    "usr": "s:18AimstarInAppLogSDK8APIErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.APIError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIError",
-                        "printedName": "AimstarInAppLogSDK.APIError",
-                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK8APIErrorO15invalidResponseyA2CmF",
-            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO15invalidResponseyA2CmF",
-            "moduleName": "AimstarInAppLogSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "serviceUnavailable",
-            "printedName": "serviceUnavailable",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIError",
-                        "printedName": "AimstarInAppLogSDK.APIError",
-                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(statusCode: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.APIError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIError",
-                        "printedName": "AimstarInAppLogSDK.APIError",
-                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK8APIErrorO18serviceUnavailableyACSi_tcACmF",
-            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO18serviceUnavailableyACSi_tcACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "clientError",
-            "printedName": "clientError",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIError",
-                        "printedName": "AimstarInAppLogSDK.APIError",
-                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(statusCode: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.APIError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIError",
-                        "printedName": "AimstarInAppLogSDK.APIError",
-                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK8APIErrorO11clientErroryACSi_tcACmF",
-            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO11clientErroryACSi_tcACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "serverError",
-            "printedName": "serverError",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIError",
-                        "printedName": "AimstarInAppLogSDK.APIError",
-                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(statusCode: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.APIError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIError",
-                        "printedName": "AimstarInAppLogSDK.APIError",
-                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK8APIErrorO11serverErroryACSi_tcACmF",
-            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO11serverErroryACSi_tcACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "unexpectedStatus",
-            "printedName": "unexpectedStatus",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIError",
-                        "printedName": "AimstarInAppLogSDK.APIError",
-                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(statusCode: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.APIError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIError",
-                        "printedName": "AimstarInAppLogSDK.APIError",
-                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK8APIErrorO16unexpectedStatusyACSi_tcACmF",
-            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO16unexpectedStatusyACSi_tcACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:18AimstarInAppLogSDK8APIErrorO",
-        "mangledName": "$s18AimstarInAppLogSDK8APIErrorO",
-        "moduleName": "AimstarInAppLogSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AimstarInAppLogSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CustomValue",
-        "printedName": "CustomValue",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "string",
-            "printedName": "string",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> (Swift.String) -> AimstarInAppLogSDK.CustomValue",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> AimstarInAppLogSDK.CustomValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK11CustomValueO6stringyACSScACmF",
-            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO6stringyACSScACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "bool",
-            "printedName": "bool",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> (Swift.Bool) -> AimstarInAppLogSDK.CustomValue",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Bool) -> AimstarInAppLogSDK.CustomValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK11CustomValueO4boolyACSbcACmF",
-            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO4boolyACSbcACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "double",
-            "printedName": "double",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> (Swift.Double) -> AimstarInAppLogSDK.CustomValue",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Double) -> AimstarInAppLogSDK.CustomValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK11CustomValueO6doubleyACSdcACmF",
-            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO6doubleyACSdcACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "stringArray",
-            "printedName": "stringArray",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> ([Swift.String]) -> AimstarInAppLogSDK.CustomValue",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "([Swift.String]) -> AimstarInAppLogSDK.CustomValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK11CustomValueO11stringArrayyACSaySSGcACmF",
-            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO11stringArrayyACSaySSGcACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "boolArray",
-            "printedName": "boolArray",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> ([Swift.Bool]) -> AimstarInAppLogSDK.CustomValue",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "([Swift.Bool]) -> AimstarInAppLogSDK.CustomValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.Bool]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK11CustomValueO9boolArrayyACSaySbGcACmF",
-            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO9boolArrayyACSaySbGcACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "doubleArray",
-            "printedName": "doubleArray",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> ([Swift.Double]) -> AimstarInAppLogSDK.CustomValue",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "([Swift.Double]) -> AimstarInAppLogSDK.CustomValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.Double]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Double",
-                            "printedName": "Swift.Double",
-                            "usr": "s:Sd"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomValue",
-                        "printedName": "AimstarInAppLogSDK.CustomValue",
-                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK11CustomValueO11doubleArrayyACSaySdGcACmF",
-            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO11doubleArrayyACSaySdGcACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18AimstarInAppLogSDK11CustomValueO6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO6encode2toys7Encoder_p_tKF",
-            "moduleName": "AimstarInAppLogSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:18AimstarInAppLogSDK11CustomValueO",
-        "mangledName": "$s18AimstarInAppLogSDK11CustomValueO",
-        "moduleName": "AimstarInAppLogSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AimstarInAppLogSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AimstarInAppLogSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AimstarInAppLogSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ValidationError",
-        "printedName": "ValidationError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "invalidParameter",
-            "printedName": "invalidParameter",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AimstarInAppLogSDK.ValidationError.Type) -> (Swift.String, Swift.Int, Swift.Int, Swift.Int, Swift.Int) -> AimstarInAppLogSDK.ValidationError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.Int, Swift.Int, Swift.Int, Swift.Int) -> AimstarInAppLogSDK.ValidationError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ValidationError",
-                        "printedName": "AimstarInAppLogSDK.ValidationError",
-                        "usr": "s:18AimstarInAppLogSDK15ValidationErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(name: Swift.String, input: Swift.Int, forced: Swift.Int, min: Swift.Int, max: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AimstarInAppLogSDK.ValidationError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ValidationError",
-                        "printedName": "AimstarInAppLogSDK.ValidationError",
-                        "usr": "s:18AimstarInAppLogSDK15ValidationErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18AimstarInAppLogSDK15ValidationErrorO16invalidParameteryACSS_S4itcACmF",
-            "mangledName": "$s18AimstarInAppLogSDK15ValidationErrorO16invalidParameteryACSS_S4itcACmF",
-            "moduleName": "AimstarInAppLogSDK"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:18AimstarInAppLogSDK15ValidationErrorO",
-        "mangledName": "$s18AimstarInAppLogSDK15ValidationErrorO",
-        "moduleName": "AimstarInAppLogSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AimstarInAppLogSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AimstarInAppLogSDK"
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2672,6 +1808,329 @@
         "moduleName": "AimstarInAppLogSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "APIError",
+        "printedName": "APIError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> AimstarInAppLogSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "AimstarInAppLogSDK.APIError",
+                    "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK8APIErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO15invalidResponseyA2CmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "serviceUnavailable",
+            "printedName": "serviceUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK8APIErrorO18serviceUnavailableyACSi_tcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO18serviceUnavailableyACSi_tcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "clientError",
+            "printedName": "clientError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK8APIErrorO11clientErroryACSi_tcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO11clientErroryACSi_tcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK8APIErrorO11serverErroryACSi_tcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO11serverErroryACSi_tcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unexpectedStatus",
+            "printedName": "unexpectedStatus",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.APIError.Type) -> (Swift.Int) -> AimstarInAppLogSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> AimstarInAppLogSDK.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "AimstarInAppLogSDK.APIError",
+                        "usr": "s:18AimstarInAppLogSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK8APIErrorO16unexpectedStatusyACSi_tcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK8APIErrorO16unexpectedStatusyACSi_tcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18AimstarInAppLogSDK8APIErrorO",
+        "mangledName": "$s18AimstarInAppLogSDK8APIErrorO",
+        "moduleName": "AimstarInAppLogSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2693,6 +2152,131 @@
         "moduleName": "AimstarInAppLogSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ValidationError",
+        "printedName": "ValidationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidParameter",
+            "printedName": "invalidParameter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.ValidationError.Type) -> (Swift.String, Swift.Int, Swift.Int, Swift.Int, Swift.Int) -> AimstarInAppLogSDK.ValidationError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.Int, Swift.Int, Swift.Int, Swift.Int) -> AimstarInAppLogSDK.ValidationError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidationError",
+                        "printedName": "AimstarInAppLogSDK.ValidationError",
+                        "usr": "s:18AimstarInAppLogSDK15ValidationErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(name: Swift.String, input: Swift.Int, forced: Swift.Int, min: Swift.Int, max: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.ValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidationError",
+                        "printedName": "AimstarInAppLogSDK.ValidationError",
+                        "usr": "s:18AimstarInAppLogSDK15ValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK15ValidationErrorO16invalidParameteryACSS_S4itcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK15ValidationErrorO16invalidParameteryACSS_S4itcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18AimstarInAppLogSDK15ValidationErrorO",
+        "mangledName": "$s18AimstarInAppLogSDK15ValidationErrorO",
+        "moduleName": "AimstarInAppLogSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2708,22 +2292,29 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AimstarInAppLogSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AimstarInAppLogSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
         "declKind": "Import",
         "moduleName": "AimstarInAppLogSDK"
       },
@@ -3001,10 +2592,419 @@
       },
       {
         "kind": "Import",
-        "name": "os",
-        "printedName": "os",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AimstarInAppLogSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomValue",
+        "printedName": "CustomValue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> (Swift.String) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO6stringyACSScACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO6stringyACSScACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> (Swift.Bool) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO4boolyACSbcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO4boolyACSbcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "double",
+            "printedName": "double",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> (Swift.Double) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO6doubleyACSdcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO6doubleyACSdcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "stringArray",
+            "printedName": "stringArray",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> ([Swift.String]) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO11stringArrayyACSaySSGcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO11stringArrayyACSaySSGcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "boolArray",
+            "printedName": "boolArray",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> ([Swift.Bool]) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.Bool]) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Bool]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO9boolArrayyACSaySbGcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO9boolArrayyACSaySbGcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "doubleArray",
+            "printedName": "doubleArray",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AimstarInAppLogSDK.CustomValue.Type) -> ([Swift.Double]) -> AimstarInAppLogSDK.CustomValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.Double]) -> AimstarInAppLogSDK.CustomValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Double]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AimstarInAppLogSDK.CustomValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomValue",
+                        "printedName": "AimstarInAppLogSDK.CustomValue",
+                        "usr": "s:18AimstarInAppLogSDK11CustomValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO11doubleArrayyACSaySdGcACmF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO11doubleArrayyACSaySdGcACmF",
+            "moduleName": "AimstarInAppLogSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AimstarInAppLogSDK11CustomValueO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18AimstarInAppLogSDK11CustomValueO6encode2toys7Encoder_p_tKF",
+            "moduleName": "AimstarInAppLogSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18AimstarInAppLogSDK11CustomValueO",
+        "mangledName": "$s18AimstarInAppLogSDK11CustomValueO",
+        "moduleName": "AimstarInAppLogSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3017,76 +3017,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 107,
-      "length": 11,
-      "value": "\"page_view\""
-    },
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 324,
-      "length": 14,
-      "value": "\"product_view\""
-    },
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 654,
-      "length": 18,
-      "value": "\"product_purchase\""
-    },
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1029,
-      "length": 14,
-      "value": "\"button_click\""
-    },
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1278,
-      "length": 8,
-      "value": "\"search\""
-    },
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1675,
-      "length": 17,
-      "value": "\"product_cart_in\""
-    },
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1964,
-      "length": 18,
-      "value": "\"product_favorite\""
-    },
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2220,
-      "length": 19,
-      "value": "\"push_notification\""
-    },
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2421,
-      "length": 22,
-      "value": "\"request_external_api\""
-    },
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/LocalStorage\/AimstarInAppLogSettingsStore.swift",
-      "kind": "StringLiteral",
-      "offset": 564,
-      "length": 25,
-      "value": "\"aimstarSdkSettings.json\""
-    },
     {
       "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/AimstarInAppLog.swift",
       "kind": "IntegerLiteral",
@@ -3151,18 +3081,25 @@
       "value": "500"
     },
     {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/LocalStorage\/FileStorage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1283,
-      "length": 3,
-      "value": "200"
-    },
-    {
       "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/SetupState.swift",
       "kind": "StringLiteral",
       "offset": 378,
       "length": 7,
       "value": "\"Setup\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Batch\/BatchProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 35,
+      "value": "\"com.aimstarInAppLogSDK.batch.lock\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Batch\/BatchProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 14,
+      "value": "\"BatchProcess\""
     },
     {
       "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/APIRequestBody.swift",
@@ -3195,23 +3132,30 @@
     {
       "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/NetworkConfig.swift",
       "kind": "StringLiteral",
-      "offset": 259,
+      "offset": 263,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/NetworkConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/NetworkConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
       "length": 74,
       "value": "\"https:\/\/28hkdl9d32.execute-api.ap-northeast-1.amazonaws.com\/v1\/event_log\""
     },
     {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Batch\/BatchProcessor.swift",
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/LocalStorage\/AimstarInAppLogSettingsStore.swift",
       "kind": "StringLiteral",
       "offset": 564,
-      "length": 35,
-      "value": "\"com.aimstarInAppLogSDK.batch.lock\""
-    },
-    {
-      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Batch\/BatchProcessor.swift",
-      "kind": "StringLiteral",
-      "offset": 702,
-      "length": 14,
-      "value": "\"BatchProcess\""
+      "length": 25,
+      "value": "\"aimstarSdkSettings.json\""
     },
     {
       "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/Network\/UploadManager.swift",
@@ -3219,6 +3163,76 @@
       "offset": 138,
       "length": 31,
       "value": "\"com.aimstarInAppLogSDK.upload\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/LocalStorage\/FileStorage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1283,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 11,
+      "value": "\"page_view\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 14,
+      "value": "\"product_view\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 654,
+      "length": 18,
+      "value": "\"product_purchase\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 14,
+      "value": "\"button_click\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1278,
+      "length": 8,
+      "value": "\"search\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1675,
+      "length": 17,
+      "value": "\"product_cart_in\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 18,
+      "value": "\"product_favorite\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2220,
+      "length": 19,
+      "value": "\"push_notification\""
+    },
+    {
+      "filePath": "\/Users\/ri-tamura\/Documents\/Work\/Develop_2025\/Fenrir\/in-app-log-ios\/AimstarInAppLogSDK\/AimstarInAppLogSDK\/Core\/TrackingData\/EventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2421,
+      "length": 22,
+      "value": "\"request_external_api\""
     }
   ]
 }
