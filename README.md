@@ -41,6 +41,15 @@
 pod "AimstarInAppLog"
 ```
 
+#### Swift Package Manager を利用する場合
+
+1. Xcode のメニューから「File」 > 「Add Package Dependencies...」を選択します。
+2. 右上の Search Bar に以下の URL を入力し、パッケージを選択した後、「Add Package」をクリックします。
+
+   ```url
+   https://github.com/supsysjp/aimstar-in-app-log-ios
+   ```
+
 #### 手動で追加する場合
 
 1. [Releases](https://github.com/supsysjp/aimstar-in-app-log-ios/releases) から `AimstarInAppLogSDK.zip` をダウンロードして展開し、  `AimstarInAppLogSDK.xcframework` を準備してください。
