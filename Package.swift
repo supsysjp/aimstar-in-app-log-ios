@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AimstarInAppLogSDK",
-            url: "https://github.com/supsysjp/aimstar-in-app-log-ios/releases/download/1.0.1/AimstarInAppLogSDK.zip",
+            url: "https://github.com/supsysjp/aimstar-in-app-log-ios/releases/download/1.0.2/AimstarInAppLogSDK.zip",
             checksum: "e53d2e2655a992cb0192a983cff6e2e3054a70a374a668dd1ec16f4c491e8629"
         ),
     ],
